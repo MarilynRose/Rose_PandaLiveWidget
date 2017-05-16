@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EAD9B857FAEAF136C441439 /* libPods-Rose_PandaLiveWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E2CD1D86308C590CE507F /* libPods-Rose_PandaLiveWidget.a */; };
+		EDC504531EC9580C008E68A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC504521EC9580C008E68A1 /* main.m */; };
+		EDC504561EC9580C008E68A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC504551EC9580C008E68A1 /* AppDelegate.m */; };
+		EDC504591EC9580C008E68A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC504581EC9580C008E68A1 /* ViewController.m */; };
+		EDC5045C1EC9580C008E68A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC5045A1EC9580C008E68A1 /* Main.storyboard */; };
+		EDC5045E1EC9580C008E68A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC5045D1EC9580C008E68A1 /* Assets.xcassets */; };
+		EDC504611EC9580C008E68A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC5045F1EC9580C008E68A1 /* LaunchScreen.storyboard */; };
+		EDC5046C1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5046B1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.m */; };
+		EDC504771EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC504761EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.m */; };
+		EDC504871EC97A08008E68A1 /* Rose_playerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC504861EC97A08008E68A1 /* Rose_playerManager.m */; };
+		EDC5048B1EC983EC008E68A1 /* Rose_liveView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5048A1EC983EC008E68A1 /* Rose_liveView.m */; };
+		EDC5048E1ECAA136008E68A1 /* liveRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5048D1ECAA136008E68A1 /* liveRoomVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC504681EC9580C008E68A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC504461EC9580C008E68A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC5044D1EC9580C008E68A1;
+			remoteInfo = Rose_PandaLiveWidget;
+		};
+		EDC504731EC9580C008E68A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC504461EC9580C008E68A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC5044D1EC9580C008E68A1;
+			remoteInfo = Rose_PandaLiveWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B6A52A06AA2B3D939455E19 /* Pods-Rose_PandaLiveWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rose_PandaLiveWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rose_PandaLiveWidget/Pods-Rose_PandaLiveWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5E2CD1D86308C590CE507F /* libPods-Rose_PandaLiveWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rose_PandaLiveWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F75E1B4F3AD137E40AFD1A /* Pods-Rose_PandaLiveWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rose_PandaLiveWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rose_PandaLiveWidget/Pods-Rose_PandaLiveWidget.release.xcconfig"; sourceTree = "<group>"; };
+		EDC5044E1EC9580C008E68A1 /* Rose_PandaLiveWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rose_PandaLiveWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC504521EC9580C008E68A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC504541EC9580C008E68A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDC504551EC9580C008E68A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDC504571EC9580C008E68A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDC504581EC9580C008E68A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDC5045B1EC9580C008E68A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC5045D1EC9580C008E68A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC504601EC9580C008E68A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC504621EC9580C008E68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC504671EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rose_PandaLiveWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC5046B1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rose_PandaLiveWidgetTests.m; sourceTree = "<group>"; };
+		EDC5046D1EC9580C008E68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC504721EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rose_PandaLiveWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC504761EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rose_PandaLiveWidgetUITests.m; sourceTree = "<group>"; };
+		EDC504781EC9580C008E68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC504851EC97A08008E68A1 /* Rose_playerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rose_playerManager.h; sourceTree = "<group>"; };
+		EDC504861EC97A08008E68A1 /* Rose_playerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rose_playerManager.m; sourceTree = "<group>"; };
+		EDC504891EC983EC008E68A1 /* Rose_liveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rose_liveView.h; sourceTree = "<group>"; };
+		EDC5048A1EC983EC008E68A1 /* Rose_liveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rose_liveView.m; sourceTree = "<group>"; };
+		EDC5048C1ECAA136008E68A1 /* liveRoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liveRoomVC.h; sourceTree = "<group>"; };
+		EDC5048D1ECAA136008E68A1 /* liveRoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = liveRoomVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC5044B1EC9580C008E68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD9B857FAEAF136C441439 /* libPods-Rose_PandaLiveWidget.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC504641EC9580C008E68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC5046F1EC9580C008E68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196F5A9AED616DA7EDE1DC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5E2CD1D86308C590CE507F /* libPods-Rose_PandaLiveWidget.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F338946F4E89067D0E819C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6A52A06AA2B3D939455E19 /* Pods-Rose_PandaLiveWidget.debug.xcconfig */,
+				B2F75E1B4F3AD137E40AFD1A /* Pods-Rose_PandaLiveWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDC504451EC9580C008E68A1 = {
+			isa = PBXGroup;
+			children = (
+				EDC504501EC9580C008E68A1 /* Rose_PandaLiveWidget */,
+				EDC5046A1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests */,
+				EDC504751EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests */,
+				EDC5044F1EC9580C008E68A1 /* Products */,
+				D9F338946F4E89067D0E819C /* Pods */,
+				196F5A9AED616DA7EDE1DC9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC5044F1EC9580C008E68A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5044E1EC9580C008E68A1 /* Rose_PandaLiveWidget.app */,
+				EDC504671EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.xctest */,
+				EDC504721EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC504501EC9580C008E68A1 /* Rose_PandaLiveWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EDC504881EC983CE008E68A1 /* Rose_liveView */,
+				EDC504841EC979BD008E68A1 /* Rose_playerManager */,
+				EDC504541EC9580C008E68A1 /* AppDelegate.h */,
+				EDC504551EC9580C008E68A1 /* AppDelegate.m */,
+				EDC504571EC9580C008E68A1 /* ViewController.h */,
+				EDC504581EC9580C008E68A1 /* ViewController.m */,
+				EDC5048C1ECAA136008E68A1 /* liveRoomVC.h */,
+				EDC5048D1ECAA136008E68A1 /* liveRoomVC.m */,
+				EDC5045A1EC9580C008E68A1 /* Main.storyboard */,
+				EDC5045D1EC9580C008E68A1 /* Assets.xcassets */,
+				EDC5045F1EC9580C008E68A1 /* LaunchScreen.storyboard */,
+				EDC504621EC9580C008E68A1 /* Info.plist */,
+				EDC504511EC9580C008E68A1 /* Supporting Files */,
+			);
+			path = Rose_PandaLiveWidget;
+			sourceTree = "<group>";
+		};
+		EDC504511EC9580C008E68A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC504521EC9580C008E68A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC5046A1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5046B1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.m */,
+				EDC5046D1EC9580C008E68A1 /* Info.plist */,
+			);
+			path = Rose_PandaLiveWidgetTests;
+			sourceTree = "<group>";
+		};
+		EDC504751EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC504761EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.m */,
+				EDC504781EC9580C008E68A1 /* Info.plist */,
+			);
+			path = Rose_PandaLiveWidgetUITests;
+			sourceTree = "<group>";
+		};
+		EDC504841EC979BD008E68A1 /* Rose_playerManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDC504851EC97A08008E68A1 /* Rose_playerManager.h */,
+				EDC504861EC97A08008E68A1 /* Rose_playerManager.m */,
+			);
+			path = Rose_playerManager;
+			sourceTree = "<group>";
+		};
+		EDC504881EC983CE008E68A1 /* Rose_liveView */ = {
+			isa = PBXGroup;
+			children = (
+				EDC504891EC983EC008E68A1 /* Rose_liveView.h */,
+				EDC5048A1EC983EC008E68A1 /* Rose_liveView.m */,
+			);
+			path = Rose_liveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC5044D1EC9580C008E68A1 /* Rose_PandaLiveWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC5047B1EC9580C008E68A1 /* Build configuration list for PBXNativeTarget "Rose_PandaLiveWidget" */;
+			buildPhases = (
+				0035A38ABAF01F7406D81BE1 /* [CP] Check Pods Manifest.lock */,
+				EDC5044A1EC9580C008E68A1 /* Sources */,
+				EDC5044B1EC9580C008E68A1 /* Frameworks */,
+				EDC5044C1EC9580C008E68A1 /* Resources */,
+				37D976BAB739B6F6713934E6 /* [CP] Embed Pods Frameworks */,
+				6AEDA5390442B8F3106328AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rose_PandaLiveWidget;
+			productName = Rose_PandaLiveWidget;
+			productReference = EDC5044E1EC9580C008E68A1 /* Rose_PandaLiveWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC504661EC9580C008E68A1 /* Rose_PandaLiveWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC5047E1EC9580C008E68A1 /* Build configuration list for PBXNativeTarget "Rose_PandaLiveWidgetTests" */;
+			buildPhases = (
+				EDC504631EC9580C008E68A1 /* Sources */,
+				EDC504641EC9580C008E68A1 /* Frameworks */,
+				EDC504651EC9580C008E68A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC504691EC9580C008E68A1 /* PBXTargetDependency */,
+			);
+			name = Rose_PandaLiveWidgetTests;
+			productName = Rose_PandaLiveWidgetTests;
+			productReference = EDC504671EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC504711EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC504811EC9580C008E68A1 /* Build configuration list for PBXNativeTarget "Rose_PandaLiveWidgetUITests" */;
+			buildPhases = (
+				EDC5046E1EC9580C008E68A1 /* Sources */,
+				EDC5046F1EC9580C008E68A1 /* Frameworks */,
+				EDC504701EC9580C008E68A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC504741EC9580C008E68A1 /* PBXTargetDependency */,
+			);
+			name = Rose_PandaLiveWidgetUITests;
+			productName = Rose_PandaLiveWidgetUITests;
+			productReference = EDC504721EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC504461EC9580C008E68A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Marilyn_Rose;
+				TargetAttributes = {
+					EDC5044D1EC9580C008E68A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L4ZSGZQF44;
+						ProvisioningStyle = Automatic;
+					};
+					EDC504661EC9580C008E68A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDC5044D1EC9580C008E68A1;
+					};
+					EDC504711EC9580C008E68A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDC5044D1EC9580C008E68A1;
+					};
+				};
+			};
+			buildConfigurationList = EDC504491EC9580C008E68A1 /* Build configuration list for PBXProject "Rose_PandaLiveWidget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC504451EC9580C008E68A1;
+			productRefGroup = EDC5044F1EC9580C008E68A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC5044D1EC9580C008E68A1 /* Rose_PandaLiveWidget */,
+				EDC504661EC9580C008E68A1 /* Rose_PandaLiveWidgetTests */,
+				EDC504711EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC5044C1EC9580C008E68A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC504611EC9580C008E68A1 /* LaunchScreen.storyboard in Resources */,
+				EDC5045E1EC9580C008E68A1 /* Assets.xcassets in Resources */,
+				EDC5045C1EC9580C008E68A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC504651EC9580C008E68A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC504701EC9580C008E68A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0035A38ABAF01F7406D81BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37D976BAB739B6F6713934E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rose_PandaLiveWidget/Pods-Rose_PandaLiveWidget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AEDA5390442B8F3106328AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rose_PandaLiveWidget/Pods-Rose_PandaLiveWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC5044A1EC9580C008E68A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC504591EC9580C008E68A1 /* ViewController.m in Sources */,
+				EDC504561EC9580C008E68A1 /* AppDelegate.m in Sources */,
+				EDC504531EC9580C008E68A1 /* main.m in Sources */,
+				EDC5048E1ECAA136008E68A1 /* liveRoomVC.m in Sources */,
+				EDC5048B1EC983EC008E68A1 /* Rose_liveView.m in Sources */,
+				EDC504871EC97A08008E68A1 /* Rose_playerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC504631EC9580C008E68A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC5046C1EC9580C008E68A1 /* Rose_PandaLiveWidgetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC5046E1EC9580C008E68A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC504771EC9580C008E68A1 /* Rose_PandaLiveWidgetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC504691EC9580C008E68A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC5044D1EC9580C008E68A1 /* Rose_PandaLiveWidget */;
+			targetProxy = EDC504681EC9580C008E68A1 /* PBXContainerItemProxy */;
+		};
+		EDC504741EC9580C008E68A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC5044D1EC9580C008E68A1 /* Rose_PandaLiveWidget */;
+			targetProxy = EDC504731EC9580C008E68A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC5045A1EC9580C008E68A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC5045B1EC9580C008E68A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC5045F1EC9580C008E68A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC504601EC9580C008E68A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC504791EC9580C008E68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC5047A1EC9580C008E68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC5047C1EC9580C008E68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6A52A06AA2B3D939455E19 /* Pods-Rose_PandaLiveWidget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4ZSGZQF44;
+				INFOPLIST_FILE = Rose_PandaLiveWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marilyn-Rose.Rose-PandaLiveWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDC5047D1EC9580C008E68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F75E1B4F3AD137E40AFD1A /* Pods-Rose_PandaLiveWidget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4ZSGZQF44;
+				INFOPLIST_FILE = Rose_PandaLiveWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marilyn-Rose.Rose-PandaLiveWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDC5047F1EC9580C008E68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Rose_PandaLiveWidgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marilyn-Rose.Rose-PandaLiveWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rose_PandaLiveWidget.app/Rose_PandaLiveWidget";
+			};
+			name = Debug;
+		};
+		EDC504801EC9580C008E68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Rose_PandaLiveWidgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marilyn-Rose.Rose-PandaLiveWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rose_PandaLiveWidget.app/Rose_PandaLiveWidget";
+			};
+			name = Release;
+		};
+		EDC504821EC9580C008E68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Rose_PandaLiveWidgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marilyn-Rose.Rose-PandaLiveWidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rose_PandaLiveWidget;
+			};
+			name = Debug;
+		};
+		EDC504831EC9580C008E68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Rose_PandaLiveWidgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Marilyn-Rose.Rose-PandaLiveWidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rose_PandaLiveWidget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC504491EC9580C008E68A1 /* Build configuration list for PBXProject "Rose_PandaLiveWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC504791EC9580C008E68A1 /* Debug */,
+				EDC5047A1EC9580C008E68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC5047B1EC9580C008E68A1 /* Build configuration list for PBXNativeTarget "Rose_PandaLiveWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC5047C1EC9580C008E68A1 /* Debug */,
+				EDC5047D1EC9580C008E68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC5047E1EC9580C008E68A1 /* Build configuration list for PBXNativeTarget "Rose_PandaLiveWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC5047F1EC9580C008E68A1 /* Debug */,
+				EDC504801EC9580C008E68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC504811EC9580C008E68A1 /* Build configuration list for PBXNativeTarget "Rose_PandaLiveWidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC504821EC9580C008E68A1 /* Debug */,
+				EDC504831EC9580C008E68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC504461EC9580C008E68A1 /* Project object */;
+}

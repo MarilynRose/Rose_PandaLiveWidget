@@ -1,0 +1,25 @@
+PODS:
+  - GPUImage (0.1.7)
+  - libksygpulive_ks3/base (1.9.5)
+  - libksygpulive_ks3/libksygpulive (1.9.5):
+    - GPUImage
+    - libksygpulive_ks3/base
+    - libksygpulive_ks3/mediacodec
+    - libksygpulive_ks3/mediacore_enc_base
+    - libksygpulive_ks3/mediacore_enc_lite
+    - libksygpulive_ks3/yuv
+  - libksygpulive_ks3/mediacodec (1.9.5)
+  - libksygpulive_ks3/mediacore_enc_base (1.9.5)
+  - libksygpulive_ks3/mediacore_enc_lite (1.9.5)
+  - libksygpulive_ks3/yuv (1.9.5)
+
+DEPENDENCIES:
+  - libksygpulive_ks3/libksygpulive
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  libksygpulive_ks3: fbf59b1a8299a24241c9a1d3f102d75983d0195e
+
+PODFILE CHECKSUM: 2b5e6766f2690c6dc5fca5e8821764f1d7b72758
+
+COCOAPODS: 1.1.1

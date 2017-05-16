@@ -1,0 +1,1 @@
+../../../libksygpulive_ks3/prebuilt/include/KSYPlayer/KSYMediaInfo.h
