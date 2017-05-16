@@ -3,7 +3,7 @@
 //  Rose_PandaLiveWidget
 //
 //  Created by Marilyn_Rose on 2017/5/15.
-//  Copyright © 2017年 Marilyn_Rose. All rights reserved.
+//  Copyright © 2017年 Marilyn_Rose. All rights reserved. aaaaaa
 //
 
 #import "ViewController.h"
